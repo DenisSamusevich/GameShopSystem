@@ -10,26 +10,26 @@
 
 ```
 GameShopSystem/
-├──GameShopSystem.Domain		      # Ядро бизнес логики
-│  ├─Entities/						        # Сущности (Player, ShopItem)
-│  ├─DomainEvemts/				        # События 
-│  ├─RepositoriesInterfaces/	    # Интерфейсы репозиториев
-│  ├─Services/						        # Сервисы бизнес логики
-│  │  └─Interfaces					      # Интерфейсы сервисов
-│  └─ValueObjects					        # Объекты значения
-├──GameShopSystem.Application	    # Сценарии использования
-│  ├─Hundlers/						        # Обработчики команд и запросов
-│  ├─UseCases/						        # Основные сценарии
-│  │  ├Comands/						        # Команды
-│  │  └Queries/						        # Запросы
-│  ├─DTOs/							          # Data Transfer Object
-│  ├─Interfaces/						      # Интерфейсы внешних сервисов
-│  └─Extensions/					        # Расширения (для DI)
-├──GameShopSystem.Infrastructure	# Реализации
-├──GameShopSystem.Presentation	  # Презентация
-└─GameShopSystem.Test			        # Тестирование
-   ├─Unit/							          # Юнит тесты
-   └─Integration/						      # Интеграционные тесты
+├──GameShopSystem.Domain		         # Ядро бизнес логики
+│  ├─Entities/						     # Сущности (Player, ShopItem)
+│  ├─DomainEvemts/				         # События 
+│  ├─RepositoriesInterfaces/	         # Интерфейсы репозиториев
+│  ├─Services/						     # Сервисы бизнес логики
+│  │  └─Interfaces					     # Интерфейсы сервисов
+│  └─ValueObjects					     # Объекты значения
+├──GameShopSystem.Application	         # Сценарии использования
+│  ├─Hundlers/						     # Обработчики команд и запросов
+│  ├─UseCases/						     # Основные сценарии
+│  │  ├Comands/						     # Команды
+│  │  └Queries/						     # Запросы
+│  ├─DTOs/							     # Data Transfer Object
+│  ├─Interfaces/						 # Интерфейсы внешних сервисов
+│  └─Extensions/					     # Расширения (для DI)
+├──GameShopSystem.Infrastructure	     # Реализации
+├──GameShopSystem.Presentation	         # Презентация
+└─GameShopSystem.Test			         # Тестирование
+   ├─Unit/							     # Юнит тесты
+   └─Integration/						 # Интеграционные тесты
 ```
 ### Диаграмма Onion Architecture:
 
